@@ -1,0 +1,28 @@
+.root {
+  background: tomato;
+  background-size: cover;
+  position: relative;
+  min-height: 100vh;
+  margin: 0 auto;
+  z-index: 1;
+  background-image: url(../../assets/7.jpg);
+} 
+.root svg g {
+  fill: teal;
+}
+.container {
+  width: fit-content;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation: text-fade-in 1000ms 800ms forwards;
+}
+.header {
+  font-size: 65px;
+  font-weight: normal;
+  font-style: italic;
+  color: #000000;
+  line-height: 65px;
+}
